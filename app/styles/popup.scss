@@ -1,0 +1,27 @@
+.popup {
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 100%;
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	background: rgba(0, 0, 0, 0.5);
+
+	&__wrapper {
+		max-width: 200px;
+		background: $blue;
+		border-radius: 3px;
+		color: #fff;
+		font-size: 16px;
+		padding: 20px;
+		text-align: center;
+	}
+	&__link {
+		font-size: 18px;
+		color: #fff;
+		padding: 20px 0 0;
+		display: inline-block;
+	}
+}
